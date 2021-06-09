@@ -15,8 +15,14 @@
 <p>Given an publication (text data) find the correct dataset labels (text data). So, a set of arrays (that represent the words in data), to another set of arrays. </p>
 
 <h7>How do we solve this problem?</h7>
-<p>How do we represent the data? Either by arrays or word vectors?</p>
 <p>Should we use a pretrained model or build a new one? 
 	- I think it is better to first build a new model, to further increase my knowledge in ML.
 	- Then later try to use a pre-trained model, like Roberta. Because it's a more advanced stuff, when you have better understanding of ML and pre-trained models. It's better to learn the basics before doing advanced stuff.</p>
+
+<p>How do we represent the data? Either by arrays or GloVe's</p>
+	- I think that Glove's are a better choice, upon some quikc research they are more efficient. Keras also have built in layers for embedding (Embedding layers).
+
+
+<strong> Next Todo</strong>
+Take a subset of the data and try to create a simpler model.
 
